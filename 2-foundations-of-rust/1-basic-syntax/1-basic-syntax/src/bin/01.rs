@@ -1,8 +1,8 @@
 fn main() {
-    println!("{}", multiply(10, 20));
+    println!("{:?}", multiply(10, 20));
 }
 
-fn multiply(a: i32, b: i32) {
+fn multiply(a: i32, b: i32)->i32 {
     a * b
 }
 
